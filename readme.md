@@ -15,4 +15,7 @@ This project outlines the steps to setup a multi-node cluster using Kubernetes i
    - kubectl apply -n argocd -f https://raw.githubusercontent.com/argoproj/argo-cd/stable/manifests/install.yaml
    - kubectl patch svc argocd-server -n argocd -p '{"spec": {"type": "NodePort"}}'
    - kubectl port-forward -n argocd service/argocd-server 8443:443 &
-6. Deploy Kafka-Bonzai
+   - ::x
+   
+6. Generate a token on github and create a secret for argocd
+7. 
