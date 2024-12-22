@@ -10,7 +10,7 @@ spec:
     namespace: default
   source:
     repoURL: https://github.com/singhkgurtej/kind
-    path: example-voting-app\k8s-specifications
+    path: k8s-specifications
     targetRevision: main
   syncPolicy:
     automated:
